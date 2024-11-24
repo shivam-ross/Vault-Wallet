@@ -1,4 +1,4 @@
-
+'use client'
 import { PhraseDiv } from "../components/PhraseDiv";
 import { SecretPhraseHeading } from "../components/secretphraseHeading";
 import { AgreeAndNext } from "../components/agreeandnext";
