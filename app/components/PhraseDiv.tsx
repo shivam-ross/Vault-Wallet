@@ -4,8 +4,14 @@ import { DivElement } from "./divElement";
 
 
 export function PhraseDiv(){
+     const[mnemonic, setMnemonic]= useState("")
 
-    const mnemonic = localStorage.getItem("mnemonic")||""
+    useEffect(()=>{
+        const mn = localStorage.getItem('mnemonic');
+        if(mn !== null){
+        setMnemonic(mn);}
+    },[])
+
 
 
     return(<div className="bg-slate-500 mt-6 p-4 rounded ">
