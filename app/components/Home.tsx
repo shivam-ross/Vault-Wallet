@@ -16,7 +16,7 @@ export function HomeComponent (){
                     <button onClick={() => router.push('/createwallet')} className='border-2 border-cyan-400 bg-slate-900 text-cyan-400 mb-2 px-8 py-2 rounded-lg text-md font-semibold font-sans text-lg'>
                         Create a new wallet
                     </button>
-                    <button className='bg-cyan-400 text-slate-900 px-8 py-2 rounded-lg text-md font-semibold font-sans text-lg' > Import wallet</button>
+                    <button onClick={() => router.push('/importwallet')} className='bg-cyan-400 text-slate-900 px-8 py-2 rounded-lg text-md font-semibold font-sans text-lg' > Import wallet</button>
                 </div>
             </div>
         </div>
